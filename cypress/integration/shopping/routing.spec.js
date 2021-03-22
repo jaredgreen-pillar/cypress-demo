@@ -18,6 +18,6 @@ context('Routing', () => {
   it('should redirect unknown paths to page not found', () => {
     cy.visit('http://localhost:4200/classified-information')
 
-    cy.get('.title').should('have.text', 'Page not found')
+    cy.get('.title').should('contain.text', 'Page not found')
   });
 })
