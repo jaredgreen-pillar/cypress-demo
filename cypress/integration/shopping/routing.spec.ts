@@ -1,5 +1,3 @@
-/// <reference types="cypress" />
-
 describe('Routing', () => {
 
   it('should redirect to the products page', () => {

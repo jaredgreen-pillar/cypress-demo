@@ -18,3 +18,7 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+beforeEach(() => {
+  cy.intercept("GET", "**/api/v1/products", { fixture: "fake-products.json" })
+})

@@ -1,5 +1,3 @@
-/// <reference types="cypress" />
-
 describe('app navigation', () => {
   it('clicking home should return to products page', () => {
     cy.visit('http://localhost:4200/page-that-does-not-exist')
