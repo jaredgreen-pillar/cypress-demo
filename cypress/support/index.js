@@ -13,12 +13,12 @@
 // https://on.cypress.io/configuration
 // ***********************************************************
 
+// Import cypress-axe
+import 'cypress-axe'
+
 // Import commands.js using ES2015 syntax:
 import './commands'
 
+
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
-
-beforeEach(() => {
-  cy.intercept("GET", "**/api/v1/products", { fixture: "fake-products.json" })
-})

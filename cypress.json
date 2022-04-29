@@ -1,3 +1,17 @@
 {
-  "ignoreTestFiles": "**/examples/*.js"
+  "ignoreTestFiles": [
+    "**/examples/aliasing.*.*s",
+    "**/examples/assertions.*.*s",
+    "**/examples/connectors.*.*s",
+    "**/examples/cypress_api.*.*s",
+    "**/examples/files.*.*s",
+    "**/examples/location.*.*s",
+    "**/examples/navigation.*.*s",
+    "**/examples/querying.*.*s",
+    "**/examples/misc.*.*s",
+    "**/examples/utilities.*.*s",
+    "**/examples/traversal.*.*s",
+    "**/examples/querying.*.*s",
+    "**/examples/window.*.*s"
+  ]
 }
